@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ELF APP</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="none_found">No devices found</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="connect">Connect a device</string>
+    <string name="not_connected">You are not connected to a device</string>
+
+
+    <string-array name="product_array">
+        <item>VDR </item>
+        <item>HFDR</item>
+        <item>Coupleur</item>
+        <item>ACP</item>
+        <item>AMU</item>
+        <item>BMS</item>
+        <item>CVR </item>
+        <item>RMP</item>
+        <item>HMK</item>
+        <item>LS (loudspeaker)</item>
+        <item>HPA</item>
+        <item>DLNA</item>
+        <item>CSDU</item>
+        <item>BSU </item>
+        <item>HCM </item>
+        <item>HDM </item>
+        <item>Headset (TBC) </item>
+        <item>Helga </item>
+        <item>HLD</item>
+        <item>HSDU</item>
+        <item>IGA</item>
+        <item>RFU</item>
+        <item>SDU </item>
+        <item>SASU </item>
+        <item>SCM</item>
+        <item>Computing</item>
+        <item>Antenna</item>
+    </string-array>
+</resources>

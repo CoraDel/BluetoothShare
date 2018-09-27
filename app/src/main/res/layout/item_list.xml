@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv_equip_type"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="7sp" />
+
+        <TextView
+            android:id="@+id/tv_program"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="7sp" />
+
+        <TextView
+            android:id="@+id/tv_product"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="7sp" />
+
+
+        <TextView
+            android:id="@+id/tv_model"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="7sp" />
+
+        <TextView
+            android:id="@+id/tv_standard"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="7sp" />
+
+        <TextView
+            android:id="@+id/tv_pn"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="7sp" />
+
+        <TextView
+            android:id="@+id/tv_sn"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="7sp" />
+
+        <TextView
+            android:id="@+id/tv_pnsoft"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+                android:gravity="center"
+            android:text="TextView"
+            android:textSize="7sp" />
+
+        <TextView
+            android:id="@+id/tv_statut"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+                android:gravity="center"
+            android:text="TextView"
+            android:textSize="7sp" />
+
+        <TextView
+            android:id="@+id/tv_cms"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+                android:gravity="center"
+            android:text="TextView"
+            android:textSize="7sp" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+                android:gravity="center"
+            android:text="TextView"
+            android:textSize="7sp" />
+
+
+    </LinearLayout>

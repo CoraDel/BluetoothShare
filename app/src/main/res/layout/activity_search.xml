@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+
+        <!-- Type of equipment field -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Equipment type" />
+
+            <RadioGroup
+                android:id="@+id/equipementRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButtonVHF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="VHF"
+                    android:textSize="30sp"/>
+                <!-- android:onClick="onRadioButtonClicked"-->
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonHF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="HF"
+                    android:textSize="30sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonAUDIO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="AUDIO"
+                    android:textSize="30sp"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonSATCOM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="SATCOM"
+                    android:textSize="30sp" />
+
+            </RadioGroup>
+
+            <!-- Type  field -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="program" />
+
+            <RadioGroup
+                android:id="@+id/programmeRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButtonSaLr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="SA/LR"
+                    android:textSize="30sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonA350"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="A350"
+                    android:textSize="30sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonA380"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="A380"
+                    android:textSize="30sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonA400"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="A400M"
+                    android:textSize="30sp" />
+            </RadioGroup>
+
+            <!-- Product  spinner -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product :" />
+
+                <Spinner
+                    android:id="@+id/ProductSpinner"
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/SearchEquipmentButton"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80sp"
+            android:text="search for an equipement"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/btn_all_equipment"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="250sp"
+            android:text="all equipement"
+            android:textAllCaps="false"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_add_newequipment"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50sp"
+            android:text="add an equipement"
+            android:textAllCaps="false"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_extract_data"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70sp"
+            android:text="Extract Equipment Data"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:text="You can upadate equipments by sending or receive equipments data from an other device application"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btn_bluethooh_data"
+            android:layout_width="200dp"
+            android:textSize="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10sp"
+            android:text= "Update Data by Bluethooth"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

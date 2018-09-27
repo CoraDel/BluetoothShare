@@ -1,0 +1,319 @@
+Equipment_type/Model;Program;Product;Model;Standard;PN;SN;PNSOFT;Statut;CMS;Localisation;Date_crea;Date_Modif;Comments;Current_state;Previous_state
+AUDIO;SA/LR/A380;ACP;null;null;ACP2788AC01;12;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;31929;ACP2788A - 1;12;null;OK;null;S62 Capt;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;null;ACP2788AC01;13;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;null;ACP2788A;117;null;OK;null;Install‚ CAPT simu SX1;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;31929;ACP2788A - 1;117;null;OK;null;S32 Capt;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;null;ACP2788AC01;123;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;HW:00 / SW: 00 / Amdt ABCDEFGHJ;ACP2788AF01;2788-15496;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;HW:00 / SW: 00 / Amdt ABCDEFGHJ;ACP2788AF01;2788-15497;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;HW:00 / SW: 00 / Amdt ABCDEFGHJ;ACP2788AF01;2788-15498;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;HW:00 / SW: 00 / Amdt ABCDEFGHJ;ACP2788AF01;2788-15499;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;HW:00 / SW: 00 / Amdt ABCDEFGHJ;ACP2788AF01;2788-15500;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;HW:00 / SW: 00 / Amdt ABCD.;ACP2788AB05;2788-15540;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;HW:00 / SW: 00 / Amdt ABCD.;ACP2788AB05;2788-15541;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;HW:00 / SW: 00 / Amdt ABCD.;ACP2788AB05;2788-15746;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;HW:00 / SW: 00 / Amdt ABCD.;ACP2788AB05;2788-15748;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;HW:00 / SW: 00 / Amdt ABCD.;ACP2788AB05;2788-17741;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;null;ACP2788AF01;2788-184;null;OK;null;EPOPE LR -- > A400M;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;null;ACP2788AF01;2788-185;null;OK;null;EPOPE LR -- > A400M;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;HW:00 / SW: 00 / Amdt ABCDEF;ACP2788AF01;2788-9360;null;OK;null;Banc CNS/ DD M2406;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;HW:00 / SW: 00 / Amdt ABCDEF;ACP2788AF01;2788-9361;null;OK;null;Banc CNS/ DD M2406;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;HW:00 / SW: 00 / Amdt ABCDEF;ACP2788AF01;2788-9362;null;OK;null;Banc CNS/ DD M2406;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;ACP3000;ACP2788AD010203;4206-0008;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;ACP3000;ACP2788AD010203;4206-0009;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;ACP3000;ACP2788AD010203;4206-0010;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;ACP3000;ACP2788AD010203;4206-0011;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;ACP3000;ACP2788AD010202;4206-0012;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;ACP3000;ACP2788AD010203;4206-0013;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;ACP3000;ACP2788AE010203;4207-0008;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;ACP3000;ACP2788AE010203;4207-0009;null;OK;null;Banc CNS/ DD M2406;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;ACP3000;ACP2788AE010203;4207-0010;null;OK;null;M24;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;ACP3000;ACP2788AE010203;4207-0011;null;OK;null;M24;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;ACP3000;ACP2788AE010203;4207-0012;null;OK;null;ACP1-Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;ACP3000;ACP2788AE010203;4207-0013;null;OK;null;ACP4-Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;ACP3000;ACP2788AE010202;4207-0014;null;OK;null;M24;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;null;ACP2788A;X01;null;OK;null;Install‚ F/O simu SX1;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;null;ACP2788A;X01;null;OK;null;Install‚ F/O simu SX1;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;31625;ACP2788AC01;X01;null;OK;null;S32 F/O;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;02/96 Amdt B;ACP2788PF01;X01;null;OK;null;S62 F/O;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;null;ACP2788PF01;X02;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;02/96 Amdt B;ACP2788PF01;X02;null;OK;null;S61 F/O;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;null;ACP2788PF01;X03;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;02/96 Amdt B;ACP2788PF01;X03;null;OK;null;S22 F/O;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;null;ACP2788PF01;X04;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;02/96 Amdt B;ACP2788PF01;X04;null;OK;null;;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;null;ACP2788PF01;X05;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;ACP;null;02/96 Amdt B;ACP2788PF01;X05;null;OK;null;S22 Capt;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;null;AMU3521AA01;1;null;OK;null;Banc CNS;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;maquette (alarmes FWS);AMU3521MA01;2;null;OK;null;Spare- ‚tagŠre simu SX1;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;null;AMU3521AA01;3;null;OK;null;Install‚ simu SX1;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;std: 14;AMU4031SA010611;108;null;OK;null;Banc CNS;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;4031SA;null;4031SA140204;7839;null;OK;null;Banc CNS / ‚tagŠres;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;null;AMU2790ÿCB06;2790-2674;null;OK;null;Banc CNS;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;HW:00 / SW: 00 / Amdt ABCDEF.;AMU2790CB06;2790-2674;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;analogique;AMU3514DS01;3514-0855 ;null;OK;null;Spare- ‚tagŠre simu SX1;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;null;AMU4031 SB 040714;4031-0006;null;OK;null;Banc CNS;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;null;AMU4031 LB 040714;4031-0007;null;OK;null;Banc CNS;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;std: 14 / Amt A;AMU4031 SB 070414;4031-0009;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;std: 14 ;AMU4031LA040714;4031-0011;null;OK;null;S22 800VU;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;SW13 Selcal;AMU4031 LA 030613;4031-0103;null;OK;null;Install‚ Banc CNS;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;SW13 Selcal;AMU4031LA030613;4031-0103;null;OK;null;S62 800VU;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;SW13 Selcal (tcb);AMU4031LA030613;4031-0104;null;OK;null;Install‚ simu S62;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;null;AMU4031 SA 030613;4031-0108;null;OK;null;Banc CNS;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;null;AMU4031 SB 030613;4031-0110;null;OK;null;Banc CNS;null;null;null;null;null
+AUDIO;SA/LR/A380;AMU;null;std: 13;AMU4031 SA 070413;4031-0110;null;OK;null;Banc CNS B14;null;null;null;null;null
+AUDIO;A350;AMU;null;S2 (L2.1);866-0194-050 FC302;16PGY6;null;null;6V90108895;Install‚ S51;null;null;null;null;null
+AUDIO;A350;AMU;null;S2 (L2.1);866-0194-050 FC302;16PGYC;null;null;6V90108895;Install‚ S51;null;null;null;null;null
+AUDIO;A350;AMU;null;S4;866-0194-050 FC600;16PGY7;null;null;6V90108895;Salle de nuisance;null;null;null;null;null
+AUDIO;A350;AMU;null;S2 ( L2.1);866-0194-050 FC302;16PGY8;null;null;6V90108895;Install‚ 2NSM;null;null;null;null;null
+AUDIO;A350;AMU;null;S4;866-0194-050 FC600;16PGY9;null;null;6V90108895;Salle de nuisance;null;null;null;null;null
+AUDIO;A350;AMU;null;S4;866-0194-050 FC600;16PGYV;null;null;6V90108895;Salle de nuisance;null;null;null;null;null
+AUDIO;A350;AMU;null;S2 (L2.1);866-0194-050 FC302;16PGYX;null;null;6V90108895;Install‚ 2AITC-COM;null;null;null;null;null
+AUDIO;A350;AMU;null;S2 (L2.1);866-0194-050 FC302;16PGYY;null;null;6V90108895;Install‚ 2AITC-COM;null;null;null;null;null
+AUDIO;A350;AMU;null;S2 (L2.1);866-0194-050 FC302;16PH00;null;null;6V90108895;Salle de nuisance;null;null;null;null;null
+AUDIO;A350;AMU;null;S2 (L2.1);866-0194-050 FC302;16PH01;null;null;6V90108895;Salle de nuisance;null;null;null;null;null
+AUDIO;A350;AMU;null;S2 (L2.1);866-0194-050 FC302;16PH02;null;null;6V90108895;Install‚ S52;null;null;null;null;null
+AUDIO;A350;AMU;null;S2 (L2.1);866-0194-050 FC302;16PH03;null;null;6V90108895;Install‚ S52;null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGNL;null;null;6V90108395;Install‚ FIB COM (RMP1);null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGNM;null;null;6V90108395;Install‚ FIB NAV;null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGNR;null;null;6V90108395;Install‚ FIB COM (RMP2);null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGNV;null;null;6V90108395;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;RMP;null;S3 (EMI);866-0195-050 FC301;16PGNY;null;null;6V90108395;Install‚ MSN0002 (EMI);null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGNN;null;null;6V90108395;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGNX;null;null;6V90108395;Install‚ S52 (RMP1);null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGNP;null;null;6V90108395;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGP0;null;null;6V90108395;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGP1;null;null;6V90108395;Install‚ S52 (RMP3);null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGP2;null;null;6V90108395;Install‚ FIB COM (RMP3);null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGP3;null;null;6V90108395;Install‚ FIB NAV;null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGP4;null;null;6V90108395;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGP5;null;null;6V90108395;Install‚ S51;null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGP6;null;null;6V90108395;Install‚ S51;null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGP7;null;null;6V90108395;Install‚ S52 (RMP2);null;null;null;null;null
+AUDIO;A350;RMP;null;S3;866-0195-050 FC301;16PGP8;null;null;6V90108395;Install‚ S51 (RMP2);null;null;null;null;null
+AUDIO;A350;ACP;null;S0;866-0187-050 FC002;16PGRP;null;null;6V90109095;Install‚ S5x;null;null;null;null;null
+AUDIO;A350;ACP;null;S0;866-0187-050 FC002;16PGRN;null;null;6V90109095;Install‚ FIB COM (ACP5);null;null;null;null;null
+AUDIO;A350;ACP;null;S0;866-0187-050 FC002;16PGRR;null;null;6V90109095;Install‚ FIB COM (ACP4);null;null;null;null;null
+AUDIO;A350;HMK;null;S0;866-0191-050 FC001;226838;null;null;6V90109295;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;HMK;null;S0;866-0191-050 FC001;226839;null;null;6V90109295;Install‚ FIB COM;null;null;null;null;null
+AUDIO;A350;HMK;null;S0;866-0191-050 FC001;226840;null;null;6V90109295;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;HMK;null;S0;866-0191-050 FC001;226841;null;null;6V90109295;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;HMK;null;S0;866-0191-050 FC001;226842;null;null;6V90109295;Install‚ FIB COM;null;null;null;null;null
+AUDIO;A350;HMK;null;S0;866-0191-050 FC001;226843;null;null;6V90109295;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;HMK;null;S0;866-0191-050 FC001;237909;null;null;6V90109295;Install‚ S5x;null;null;null;null;null
+AUDIO;A350;HMK;null;S0;866-0191-050 FC001;237910;null;null;6V90109295;Install‚ FIB COM;null;null;null;null;null
+AUDIO;A350;HMK;null;S0;866-0191-050 FC001;237911;null;null;6V90109295;Install‚ S5x;null;null;null;null;null
+AUDIO;A350;HMK;null;S0;866-0191-050 FC001;237912;null;null;6V90109295;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;HMK;null;S0;866-0191-050 FC001;237913;null;null;6V90109295;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;HMK;null;S0;866-0191-050 FC001;237914;null;null;6V90109295;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;BMS;null;S0;866-0190-050 FC001;227918;null;null;6V90109195;En panne RCI/Holmberg;null;null;null;null;null
+AUDIO;A350;BMS;null;S0;866-0190-050 FC001;227919;null;null;6V90109195;Install‚ ???;null;null;null;null;null
+AUDIO;A350;BMS;null;S0;866-0190-050 FC001;227920;null;null;6V90109195;Install‚ S5x;null;null;null;null;null
+AUDIO;A350;BMS;null;S3;866-0190-050;19KL5X;null;null;6V90109195;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;BMS;null;S0;866-0190-050 FC001;227922;null;null;6V90109195;Install‚ S5x;null;null;null;null;null
+AUDIO;A350;BMS;null;S0;866-0190-050 FC001;227923;null;null;6V90109195;Spare ???;null;null;null;null;null
+AUDIO;A350;BMS;null;S0;866-0190-050 FC001;238243;null;null;6V90109195;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;BMS;null;S0;866-0190-050 FC001;238244;null;null;6V90109195;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;BMS;null;S0;866-0190-050 FC001;238245;null;null;6V90109195;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;BMS;null;S3;866-0190-050;19KL61;null;null;6V90109195;Spare FIB COM;null;null;null;null;null
+AUDIO;A350;BMS;null;S0;866-0190-050 FC001;238247;null;null;6V90109195;R‚paration RCF;null;null;null;null;null
+AUDIO;A350;BMS;null;S0;866-0190-050 FC001;238248;null;null;6V90109195;Install‚ FIB COM;null;null;null;null;null
+AUDIO;A350;LS;null;S0;866-0188-050;16PGVxx;null;null;6V90108995;Install‚ FIB NSM+COM;null;null;null;null;null
+AUDIO;A350;CVR;null;S1;2100-1027-D1;661343;null;null;6V90121095;Install‚ FIB COM;null;null;null;null;null
+AUDIO;A350;CVR;null;S1;2100-1027-D1;658367;null;null;6V90121095;Spare FIB COM;null;null;null;null;null
+AUDIO;A380;RMP;null;null;RMP8000AAL30410;4112-0103;null;null;null;en pret sur simu S81;null;null;null;null;null
+VHF-HF;SA-LR;VDR;RTA-44D;serie 0202;064-50000-OT56;E28;null;OK;6307114156;M24 - Datalink1 (Salle 223);null;null;null;null;null
+VHF-HF;SA-LR;VDR;RTA-44D;serie 0101;064-50000-OT52;E12;null;OK;6307114152;M24 - Datalink1 (Salle 223);null;null;null;null;null
+VHF-HF;SA-LR;VDR;RTA-44D;05/S0;064-50000-OA50;3227;null;OK;6307117095;M24 - Datalink1 (Salle 223);null;null;null;null;null
+VHF-HF;SA-LR;VDR;RTA-44D;5T0;064-50000-2051;3627;null;OK;6907105895;M24 - CNS;null;null;null;null;null
+VHF-HF;SA-LR;VDR;RTA-44D;998-2887-503;064-50000-2051;7785;null;OK;6907105895;M24 - CNS;null;null;null;null;null
+VHF-HF;SA-LR;VDR;RTA-44D;5T0;064-50000-2E51(Serie 2051);4841;null;OK;6907106850;M24 - CNS;null;null;null;null;null
+VHF-HF;SA-LR;VDR;RTA-44D;51T0;064-50000-VL59;5480;null;OK;6907105859;M24 - CNS;null;null;null;null;null
+VHF-HF;SA-LR;VDR;RTA-44D;-2052;064-50000-2E52;17482;null;OK;6993703595;M24 - CNS;null;null;null;null;null
+VHF-HF;SA-LR;VDR;RTA-44D;-2052;064-50000-2E52;17483;null;OK;6993703595;M24 - CNS;null;null;null;null;null
+VHF-HF;SA-LR;VDR;RTA-44D;;064-50000-2051;12937;null;null;null;salle de nuisance;null;null;null;null;null
+VHF-HF;SA-LR;VDR;RTA-50D;L3.4;965-1696-0F2;187;null;KO;6L01107095;Honeywell;null;null;null;null;null
+VHF-HF;SA-LR;VDR;RTA-50D;L3.5;965-1696-0F3;180;null;KO;6L01107095;Honeywell;null;null;null;null;null
+VHF-HF;SA-LR;VDR;RTA-50D;L3.5;965-1696-0F3;183;null;OK;6L01107095;M24 - CNS;null;null;null;null;null
+VHF-HF;SA-LR;HFDR;XK516D;soft 2.60;964-0452-052;5563;null;null;null;Banc CNS/tagsres;null;null;null;null;null
+VHF-HF;SA-LR;HFDR;XK516D ;soft 2.57;964-0452-052_SW03;673;null;KO;null;Chez Honeywell;null;null;null;null;null
+VHF-HF;SA-LR;HFDR;XK516D1;CTRL 6030.2151.00 V2.00;964-0452-001;1144;null;OK;null;Banc CNS;null;null;null;null;null
+VHF-HF;SA-LR;HFDR;XK516D1;CTRL 6030.2151.00 V2.38;964-0452-1E2;2121;null;OK;null;salle de nuisance;null;null;null;null;null
+VHF-HF;SA-LR;HFDR;XK516D ;soft 1.70;964-0452-001;108;null;KO;null;Banc CNS;null;null;null;null;null
+VHF-HF;SA-LR;HFDR;XK516D1;soft 2.90;964-0452-052RL;5614;null;OK;6307118595;Banc CNS / tagsres;null;null;null;null;null
+VHF-HF;SA-LR;HFDR;XK516;soft 2.57;964-0452-052;588;null;KO;null;Chez Honeywell;null;null;null;null;null
+VHF-HF;SA-LR;HFDR;XK516;soft 2.38;964-0452-052;10003;null;KO;null;Chez Honeywell;null;null;null;null;null
+VHF-HF;SA-LR;HFDR;XK516;soft 2.38;964-0452-052;10005;null;KO;null;salle de nuisance;null;null;null;null;null
+VHF-HF;SA-LR;Coupleur HF;FK516;soft 2.40;964-0453-001;484;null;null;null;null;null;null;null;null;null
+VHF-HF;SA-LR;Coupleur HF;FK516;soft 1.60;964-0453-001;151;null;OK;null;Banc CNS;null;null;null;null;null
+VHF-HF;SA-LR;Coupleur HF;FK516;soft 1.70;964-0453-001;11;null;OK;null;Banc CNS;null;null;null;null;null
+VHF-HF;SA-LR;Coupleur HF;FK516;soft 2.40;964-0453-001;1491;null;OK;null;Banc CNS;null;null;null;null;null
+VHF-HF;SA-LR;Coupleur HF;FK516;soft 2.40;964-0453-0E1;2295;null;null;null;Banc CNS;null;null;null;null;null
+VHF-HF;SA-LR;Coupleur HF;FK516;soft 2.40;964-0453-0E1;2306;null;null;null;Banc CNS;null;null;null;null;null
+VHF-HF;SA-LR;Coupleur HF;FK516;soft 2.40;964-0453-0E1;2304;null;null;null;Banc CNS;null;null;null;null;null
+SATCOM;n/a;Lifebook E8310;LIFEBOOK E series;n/a;1PCP331350-05;8890007155 Fujitsu Siemens Gmbh Serial No. YK8J155914 ;null;OK;n/a;CNS SA/LR A664shelf 8020705;null;null;null;null;null
+SATCOM;n/a;Lifebook E8310;LIFEBOOK E series;n/a;1PCP331350-05-03;8850002584 Fujitsu Siemens Gmbh Serial No. YK8J125188;null;OK;n/a;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;n/a;EliteBook;EliteBook 8570p;n/a;null;null;null;OK;n/a;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;n/a;Lifebook;null;n/a;CP242230-04;R5X0079 serial no YBDV060095;null;OK;n/a;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;n/a;null;CELSIUS;n/a;null;null;null;OK;null;CNS SA/LR A664 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;n/a;null;Esprimo;n/a;null;YK3J167741;null;OK;null;2AITCCOM FIB;null;null;null;null;null
+SATCOM;n/a;Switch;Netgear GS 108 V2 prosafe 8 port Gigabit switch;n/a;272-10357-01;1DR1893100AF0;null;OK;n/a;CNS SA/LR A664 shelf 8020705 Satcom blue box;null;null;null;null;null
+SATCOM;n/a;TAP;UTP TAP IL/1;n/a;463039-01 Rev D;;null;OK;n/a;CNS SA/LR A664 shelf 8020705 Satcom blue box;null;null;null;null;null
+SATCOM;n/a;USB floppy disk drive;null;n/a;4-000-934-1;null;null;OK;n/a;CNS SA/LR A664 shelf 8020705 Satcom blue box;null;null;null;null;null
+SATCOM;n/a;Headset;Jabra GN1200;n/a;2309-820-104;-;null;OK;n/a;Technical room C668 shelf 8009814;null;null;null;null;null
+SATCOM;A350;SCM;SCM-2200;S3;8222558050FC011;3N77B;null;OK;null;Technical room C66 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;A350;SCM;SCM-2200;S3;8222558050FC011;3N77C;null;OK;null;Technical room C668 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;A350;SCM;SCM-2200;S2;8222558050;477PPL;null;OK;null;Technical room  C66 8SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;A350;SCM;SCM-2200;?;8222558050FC010;16PH1T;null;OK;null;Technical room C668 shelf 8009812;null;null;null;null;null
+SATCOM;A350;SCM;SCM-2200;?;8222558050;4C4F21;null;OK;null;Technical room C668 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;A350;SCM;SCM-2200;?;8222558050;4C4F23;null;OK;null;Technical room C668 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;A350;SDU;SDU-2200A;null;8222909050FC040;3N77P;null;OK;null;Technical room C668 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;A350;SDU;SDU-2200A;S4 TTGF;8222909050FC040;457NV;null;OK;null;Technical room C668 shelf 8009812;null;null;null;null;null
+SATCOM;A350;HPA;HPA-2200;S2;822-2910-050FC030;3N76X;null;OK;null;Technical room C668 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;A350;HPA;HPA-2200;?;822-2910-050FC025;457VC;null;OK;null;Technical room C668 shelf 8009812;null;null;null;null;null
+SATCOM;A350;D/LNA;D/LNA-2100C;S1 FAL;8222922050FC010;3N77R;null;OK;null;Technical room C668 shelf 8009812;null;null;null;null;null
+SATCOM;A350;D/LNA;D/LNA-2100C;S1 FAL;8222922050FC010;3N77W;null;OK;null;Technical room C668 shelf 8009812;null;null;null;null;null
+SATCOM;LR/A380;SDU;SD-720;SBB Mod C Step 3 L2 DRFM L2;7516118-EW145;67000097;null;OK;63.A38.501.95;CNS SA/LR A664 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;LR/A380;SDU;SD-720;SBB Mod C Step 3 L2 DRFM L2;7516118-EW145;5051146;null;OK;6L.047.999.95;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;LR/A380;SDU;SD-720;?;7516118-27140LG;67001286;null;OK;63.385.078.95;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;LR/A380;SDU;SD-720;Mod C L2;7516118 -EZ1EA;67000016;null;OK;63.385.095.95;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;LR/A380;SDU;SD-720;L4;7516118-271EG;5081219;null;OK;null;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;LR/A380;SDU;SD-720;Mod C L3;7516118-EZ145;3090536;null;OK;6L.033.377.95;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;A380;SDU;SD-720;?;7516118-27140;67001444;null;OK;null;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;LR/A380;SDU;SD-700;?;7516118-EZ020;1102410;null;OK;63.385.068.95;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;LR/A380;HDM;HDM;?;7520033-90A;102;null;OK;null;CNS SA/LR A664 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;LR/A380;HDM;HDM;SBB ;1252-A-2013-01;110;null;OK;null;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;LR/A380;HDM;HDM;null;7520033-90A;111;null;OK;null;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;LR;HDM;HDM;SBB ;1252-A-2013-01;793;null;OK;null;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;LR/A380;HSDU;HS-720;Mod C L2;7520061-340EM;31765115;null;OK;6L.038.951.95;CNS SA/LR A664 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;LR/A380;HSDU;HS-720;IRIS PRECURSOR L2 FFAR;7520061-340EM;10057590;null;OK;63.385.899.95;CNS SA/LR A664shelf 8020705;null;null;null;null;null
+SATCOM;LR/A380;HSDU;HS-720;SBB Mod A;7520061-34015E;33592783;null;OK;63.385.080.95;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;LR/A380;HSDU;HS-720;?;7520061-34010LB;40140681;null;OK;63.385.080.95;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;LR/A380;HSDU;HS-720;S64 L3 Mod C;7520061-34010;10059159;null;OK;6L.002.539.95;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR;RFU;RFUia MCS7X00;?;7516222-901;1050001;null;OK;null;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;A380;RFU;RFUia;L3;7516222-901;3080265;null;OK;6L.000.900.95;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;A380;RFU;RFUia;L3;7516222-901;3030308;null;OK;6L.000.900.95;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;LR/A380;HPA;HP-720;L3;7520000-20140LB;31941705;null;OK;63.385.079.95;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;LR/A380;HPA;HP-720;L3;7520000-20140LB;31796168;null;OK;6L.000.847.95;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;LR/A380;HPA;HP-720;L3;7520000-20140LB;31863642;null;OK;null;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;A380;HPA;HP-720;?;7520000-20140;40081298;null;OK;null;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;SA/LR;SDU;SRT-2100B;CEPT-E1 removal;8221785402FC010;194776;null;OK;null;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;SA/LR;SDU;SRT-2100B;L3;8221785401FC040;146878;null;OK;63.110.626.95;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;SA/LR;SDU;SRT-2100B;L3;8221785401FC040;146783;null;OK;63.110.626.52;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;SA/LR;SDU;SRT-2000-6;?;822-1349-401;qqq;null;OK;null;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;LR;SDU;SRT-2000-6;?;822-1349-401;117019;null;OK;null;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;SA/LR;HCM;HCM-2100B;L1 signposted ;L2 logged ;8222248001FC020;16Y8FC;null;OK;null;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;SA/LR;HST;HST-2110B;TX Block Amdt;8222232040F8;16PH35;null;OK;63.110.622.95;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;SA/LR;HST;HST-2110B;TX Block Amdt;8222232040F8;16PH8R;null;OK;63.110.622.95;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;SA/LR;HST;HST-2110B;L3;822-2232-040F7;16Y8VD;null;OK;null;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;SA/LR;HST;HST-2110;?;822-2231-040FC030;1WR2F;null;OK;69.110.097.95;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;SA/LR;HPA;HPA-901A;?;822-0953-001;140393;null;OK;null;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;SA/LR;SDU;SDU 906-6;?;822-0314-350F3;108323;null;OK;null;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;SA/LR;HST;HST-900;?;822-1772-003L1;1478P;null;OK;63.110.297.95;CNS SA/LR A664 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;SA/LR;RFU;RFU900;?;622-8849-100;140402;null;OK;null;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;A400M;SDU;SRT-2100-3;?;822-2023-601;146829;null;OK;null;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;A400M;HST;HST-2110;?;8222231040FC030;1JPFN;null;OK;null;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;A400M;SAU;SAU-2100;PROTOTYPE;597-2306-001;3;null;OK;null;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;SA/LR;SDU;AFIRS 228S SATELLITE DATA UNIT;L3 Amdt B;228E5733-00;914173;null;OK;null;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;SA/LR;SDU;AFIRS 228S SATELLITE DATA UNIT;L3;228E5733-50;914674;null;OK;69.473.707.95;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;SA/LR;SCM;AFIRS SDU CONFIG MODULE-SCM;L2;418E5733-50;914171;null;OK;null;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;A380;BSU;CMA 2102 BSU;-;P100-602199-003L;4521160;null;OK;6L.000.905.95;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;A380;BSU;CMA 2102 BSU;-;P100-602199-003LB;4320601;null;OK;6L.000.905.95;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;LR;BSU;CMA 2102 BSU;?;100-602199-001;318;null;OK;null;CNS SA/LR A664 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;LR;BSU;CMA 2102 BSU;-;100-602199-002;1193;null;OK;null;CNS SA/LR A664 shelf 8020705;null;null;null;null;null
+SATCOM;LR;D/LNA;D/LNA Type F;?;5044-89-99;0P000044;null;OK;null;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;SA;D/LNA;D/LNA Type D;?;P100-602200-003L;6130786;null;OK;69.15.220.945;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;SA;D/LNA;D/LNA Type D;?;P100-602200-003L;6130785;null;OK;69.15.220.495;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;LR;D/LNA;D/LNA Type A;null;P100-602200-001  WGE-0090-00 ;COM9500056 ;null;OK;null;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;LR;D/LNA;D/LNA;?;7516193-902;3040259;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR;D/LNA;D/LNA;?;P100-602200-004LA;8301307;null;OK;63.15.220.795;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;LR;D/LNA;D/LNA;?;P100-602200-004LA;8301308;null;OK;63.15.220.795;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;A380;D/LNA;D/LNA Type D;null;P100-602200-003L;6151310;null;OK;6L.010.90.795;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;A380;D/LNA;D/LNA Type F;null;P100-602200-004LA;8301309;null;OK;6L.019.739.95;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;null;SDU;SDU JetSat ;?;3433-500-001A00;3433-500-001-0003;null;OK;null;CNS SA/LR A664 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;null;IGA;IGA-2000;?;822-1369-001;213;null;OK;null;Nuisance room A660 shelf 8009800;null;null;null;null;null
+SATCOM;A380;?;D/LNA TO HGA COAXIAL WIRE #44RV like ;-;500-25626-02;E75401;null;OK;null;CNS SA/LR A664 shelf 8018170   coax closet;null;null;null;null;null
+SATCOM;A350;?;D/LNA TO HGA COAXIAL WIRE;-;500-25626-02;E75400;null;OK;null;Technical room C668 shelf 8009812;null;null;null;null;null
+SATCOM;A350;?;D/LNA TO HPA COAXIAL WIRE;-;500-25684-02;E75403;null;OK;null;Technical room C668 shelf 8009812;null;null;null;null;null
+SATCOM;A350;?;LAB RF feeder 1m cable;-;6054-89-99;605489-P03;null;OK;6L02868395;CNS SA/LR A664 shelf 8018170   coax closet;null;null;null;null;null
+SATCOM;SA/LR;SDU;SRT-2000-3;?;822-1405-401;135470;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;SA/LR;SDU;SRT-2000-6;?;822-1349-401;137836;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;SA/LR;SDU;SDU906;?;822-0314-301;L4DX;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;SA/LR;SDU;SDU906;?;822-0314-301;93FC;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;SA/LR;SDU;SDU906;?;822-0314-301;L0GV;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;SA/LR;SDU;SDU906;?;822-0314-301;L4FK;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;SA/LR;RFU;RFU900;?;622-8849-100L1;111883;null;OK;63.110.212.95;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;SA/LR;RFU;RFU900;?;622-8849-100;140314;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;SA/LR;RFU;RFU900;?;622-8849-100;140335;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR;RFU;RFU900;?;622-8849-100;282;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;SA/LR;HPA;HPA-901;?;622-9252;6;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;SA/LR;HPA;HPA-901A;?;822-0953-002L1;137740;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR;SDU;SD-600;?;7516100-20050;96050887;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR;SDU;SD-600;?;7516100-20050R;98081768;null;OK;63385053-50;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR;SDU;SD-600;?;7516100-20060R;93030110;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR;SDU;SD-600;?;7516100-20050;97021279;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR;RFU;RFU-600;?;7516240-20050;96050662;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR;RFU;RFU-600;?;7516240-20050R;98091159;null;OK;633085054-50;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR;RFU;RFU-600;?;7516240-20050;96070684;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR;RFU;RFU-600;?;7516240-20060R;93010101;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR;HPA;HPA-600;?;7516250-10;93010101;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR;HPA;HPA-600;?;7516250-20050;96070905;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR;HPA;HPA-600;?;7516250-20050R;98101524;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR/A380;HPA;HPA 600;L1.1;7516250-20050LA;3092693;null;OK;6L.000.847.95;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;LR;HPA;HPA 600;L1.1;7516250-20050LA;3082679;null;OK;6L.000.847.95;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;A380;HPA;HPA 600;L1.1;7516250-20250LA;3082690;null;OK;6L.000.847.95;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;;SDU;SDU JetSat ;?;3433-500-001A00;3433-500-0000111;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;SA;HLD;HLD JetSat ;null;3433-300-000A00;1;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;SA;SDU;SDU;?;502-2001-01;15;null;OK;null;Quarantine Zone TBC A165 ;null;null;null;null;null
+SATCOM;SA;HGA;HGA Antenna SatLite Compact;?;100-602546-000LB;7062111;null;OK;null;Quarantine Zone A165 ;null;null;null;null;null
+SATCOM;SA;HGA;HGA Antenna SatLite Compact;?;P100-602546-000LA;063-81-606;null;OK;null;Quarantine Zone A165 ;null;null;null;null;null
+SATCOM;LR;HGA;HGA CMA-2102;;100-602198-001;292;null;OK;null;Quarantine Zone A165 ;null;null;null;null;null
+SATCOM;LR;HGA;HGA CMA-2102 SB;;P100-602198-003LC;8301060;null;OK;null;Quarantine Zone A165 ;null;null;null;null;null
+SATCOM;A380;HGA;HGA CMA-2102 SB;;P100-602198-003LC;8252137;null;OK;null;Quarantine Zone A165 ;null;null;null;null;null
+SATCOM;A380;HGA;HGA LW;null;P100-602198-002L;3280790;null;OK;null;Quarantine Zone A165 ;null;null;null;null;null
+SATCOM;LR;HGA;HGA 7001;?;4141-89-99;414189-02;null;OK;null;Quarantine Zone A165 ;null;null;null;null;null
+SATCOM;A400M;HGA;HGA;null;677A0173-002_REV1.2;0P000017;null;OK;null;Quarantine Zone A165 ;null;null;null;null;null
+SATCOM;A350;HGA;HGA;null;822-292-3050FC010;0P000291;null;OK;null;Quarantine Zone A165 ;null;null;null;null;null
+SATCOM;A350;HGA;HGA;null;822-292-3050FC010;0P000246;null;OK;null;Quarantine Zone A165 ;null;null;null;null;null
+SATCOM;A380;HGA;HGA;null;P100-602198-003LA;8050947;null;OK;null;Quarantine Zone A165 ;null;null;null;null;null
+SATCOM;SA/LR;SDU;SRT-2100-3;?;822-2023-401FC020;146755;null;sent back to rockwell;null;sent back to rockwell;null;null;null;null;null
+SATCOM;SA/LR;HST;HST-2110;?;822-2231-040;1WR1W;null;destruction;null;destruction;null;null;null;null;null
+SATCOM;LR;SDU;SDU-906-6;AFIS project ?;822-0314-151;9KCD;null;destruction;63.110.295.53;destruction;null;null;null;null;null
+SATCOM;LR;SDU;SDU-906;?;822-0314-303;70;null;destruction;null;destruction;null;null;null;null;null
+SATCOM;A350;HGA;HGA-2100C;S1 FAL;822-2923-050;16PR04;null;TBC Located on M24 roof;null;M24 - roof;null;null;null;null;null
+SATCOM;A380;D/LNA;D/LNA Type F;?;P100-602200-004LA;03081075 logged ;null;TBC Located on M24 roof;null;M24 - roof;null;null;null;null;null
+SATCOM;A380;HGA;HGA CMA-2102 SB;?;100-602198-003LB;08301059 logged ;null;TBC Located on M24 roof;null;M24 - roof;null;null;null;null;null
+SATCOM;LR;HGA;HGA 7001;?;4141-89-99;414189-01;null;TBC Located on M24 roof;null;M24 - roof;null;null;null;null;null
+SATCOM;null;Antenna IRIDIUM ;null;L1;009E5733-95;null;null;TBC Located on M24 roof;null;M24 - roof;null;null;null;null;null
+SATCOM;SA;IGA JETSAT ;null;null;3433-105-000A00 logged ;8 logged ;null;TBC Located on M24 roof;null;M24 - roof ?;null;null;null;null;null
+SATCOM;SA/LR;HGA;HGA 7001;null;4141-89-99;0P000159 logged ;null;TBC Located on M24 roof;null;Cobham - retrofit as logged M24 - roof ? Pas ds caisse sous motion;null;null;null;null;null
+SATCOM;LR;D/LNA;D/LNA Type F;null;5044-89-99 logged ;? logged ;null;TBC Located on M24 roof;null;?;null;null;null;null;null
+SATCOM;LR;D/LNA;D/LNA Type F;?;P100-602200-004LA;8301307 logged ;null;TBC Located on M24 roof;null;M24 - roof;null;null;null;null;null
+SATCOM;LR;HGA;HGA CMA-2102 SB;?;100-602198-003LB;08301058 logged ;null;TBC Located on M24 roof;null;M24 - roof;null;null;null;null;null
+SATCOM;SA;Antenna SatLite ;Antenna SatLite;?;100-602546-000LA logged ;06300282 logged ;null;TBC Located on M24 roof;null;M24 - roof ?;null;null;null;null;null
+SATCOM;LR;D/LNA;DLNA Modified Type A;;P100-602200-002L;LA0207023;null;TBC Located on M24 roof;6L.000.89.795;Nuisance room ?;null;null;null;null;null
+SATCOM;LR;HGA;HGA CMA-2102 SB;;P100-602198-003LC logged ;08301060 logged ;null;TBC Located on M24 roof;null;?;null;null;null;null;null
+SATCOM;A400M;D/LNA;D/LNA Type F;?;5044-89-99;null;null;TBC Located on M24 roof;null;M24 - roof ?;null;null;null;null;null
+SATCOM;A400M;HGA;HGA 7001;?;4141-89-99 logged ;414189-62 logged ;null;TBC Located on M24 roof;null;M24 - roof ?;null;null;null;null;null
+SATCOM;A380;D/LNA;D/LNA Type F;null;P100-602200-004LA logged ;08301310 logged ;null;TBC Located on M24 roof;null;AiGe Finkenwerder ? loaning ;null;null;null;null;null
+SATCOM;null;D/LNA;null;null;WGE-0090-00;COM9500046;null;TBC Located on M24 roof;null;?;null;null;null;null;null
+SATCOM;SA;SDU SRT2100 ;null;-;822-1785-001FC010 logged ;146854 logged ;null;Equipment not found;null;Rockwell Collins - retrofit Plan A L2 as logged;null;null;null;null;null
+SATCOM;SA;HST SRT2100 ;null;-;822-2232-020 logged ;1JPFH logged ;null;Equipment not found;null;Rockwell Collins - retrofit Plan A L2 as logged;null;null;null;null;null
+SATCOM;SA;HST SRT2100 ;null;-;822-2232-020 logged ;1WR2G logged ;null;Equipment not found;null;Rockwell Collins - retrofit Plan A L2 as logged;null;null;null;null;null
+SATCOM;LR;HST SRT2100 ;null;null;822-2232-040F7 logged ;16PH34 logged ;null;Equipment not found;null;?;null;null;null;null;null
+SATCOM;LR;HCM SRT2100 ;null;null;822-2248-001FC010 logged ;16PH32 logged ;null;Equipment not found;null;Rockwell Collins - EPR 51 as logged;null;null;null;null;null
+SATCOM;LR;HCM SRT2100 ;null;null;822-2248-001FC010 logged ;16Y8T0 logged ;null;Equipment not found;null;?;null;null;null;null;null
+SATCOM;LR;SDU SRT2100 ;null;null;822-1785-401FC020 logged ;169799 logged ;null;Equipment not found;null;AiGe Finkenwerder ?;null;null;null;null;null
+SATCOM;LR;HST SRT2100 ;null;null;822-2232-040F5 logged ;16Y8VG logged ;null;Equipment not found;null;AiGe Finkenwerder ?;null;null;null;null;null
+SATCOM;LR;HCM SRT2100 ;null;null;822-2248-001FC010 logged ;16Y8N5 logged ;null;Equipment not found;null;AiGe Finkenwerder ?;null;null;null;null;null
+SATCOM;LR;HPA;HP-720;null;7520000-20140LB logged ;31863644 logged ;null;Equipment not found;null;?;null;null;null;null;null
+SATCOM;A380;HPA;HP-720;null;7520000-20140LB logged ;31787513 logged ;null;Equipment not found;null;?;null;null;null;null;null
+SATCOM;SA/LR;SCM;AFIRS 228 CM;null;502-3001-01;44;null;Equipment not found;null;?;null;null;null;null;null
+SATCOM;null;Splitter;null;null;277-0906-130;null;null;Equipment not found;null;?;null;null;null;null;null
+SATCOM;SA/LR;CSDU;SDU-5045;L0;405045-00000A;81211871;null;null;null;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;SA/LR;CSDU;SDU-5045;L0;405045-00000A;81183630;null;null;null;Sent back to Cobham for replacement;null;null;null;null;null
+SATCOM;SA/LR;SCM;SCM-5055A;L0;405055-00000A;81185288;null;null;null;Storage room C666A shelf 8009800;null;null;null;null;null
+SATCOM;SA/LR;SCM;SCM-5055A;L0;405055-00000A;81185289;null;null;null;Nuisance room A660 SATCOM AVIONICS BAY;null;null;null;null;null
+SATCOM;SA/LR;HELGA;LGA-5005;L0;405005-00000B;81213102;null;null;null;M24 - roof;null;null;null;null;null
+SATCOM;SA/LR;HELGA;LGA-5005;L0;405005-00000B;81188697;null;null;null;Sent back to Cobham for replacement;null;null;null;null;null
