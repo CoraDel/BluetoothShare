@@ -124,7 +124,6 @@ public class DeviceListActivity extends Activity {
     };
 
 
-
     // The BroadcastReceiver that listens for discovered devices and
     // changes the title when discovery is finished
     private final BroadcastReceiver mReceiver = new BroadcastReceiver() {

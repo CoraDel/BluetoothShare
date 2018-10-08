@@ -36,13 +36,11 @@ public class Search extends AppCompatActivity {
         radioGroupEquipement.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int isCheck) {
-                if(isCheck == R.id.radioButtonVHF || isCheck == R.id.radioButtonHF){
+                if (isCheck == R.id.radioButtonVHF || isCheck == R.id.radioButtonHF) {
                     mType = "VHF-HF";
-                }
-                else if (isCheck == R.id.radioButtonAUDIO){
+                } else if (isCheck == R.id.radioButtonAUDIO) {
                     mType = "AUDIO";
-                }
-                else if (isCheck == R.id.radioButtonSATCOM){
+                } else if (isCheck == R.id.radioButtonSATCOM) {
                     mType = "SATCOM";
                 }
                 loadSpinnerData();
@@ -81,14 +79,15 @@ public class Search extends AppCompatActivity {
         bluethoohBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(Search.this, Bluetooth.class);
-                startActivity(in);
+                //_________TO FINISH BEFORE ABLE THE INTENT_________________//
+                /*Intent in = new Intent(Search.this, Bluetooth.class);
+                startActivity(in);*/
             }
         });
 
     }
 
-    private void sendExtraChecked(){
+    private void sendExtraChecked() {
         final Spinner spinner = findViewById(R.id.ProductSpinner);
         final RadioGroup radioGroupEquipement = (RadioGroup) findViewById(R.id.equipementRadioGroup);
         final RadioGroup radioGroupProgram = findViewById(R.id.programmeRadioGroup);
@@ -99,21 +98,20 @@ public class Search extends AppCompatActivity {
             public void onClick(View view) {
                 int selectedIdEquipement = radioGroupEquipement.getCheckedRadioButtonId();
                 int selectedIdProgram = radioGroupProgram.getCheckedRadioButtonId();
-                RadioButton radioButtonEquipement = (RadioButton)findViewById(selectedIdEquipement);
-                RadioButton radioButtonProgram = (RadioButton)findViewById(selectedIdProgram);
+                RadioButton radioButtonEquipement = (RadioButton) findViewById(selectedIdEquipement);
+                RadioButton radioButtonProgram = (RadioButton) findViewById(selectedIdProgram);
 
-                if(radioGroupEquipement.getCheckedRadioButtonId() == -1 ||
-                        radioGroupProgram.getCheckedRadioButtonId() == -1){
+                if (radioGroupEquipement.getCheckedRadioButtonId() == -1 ||
+                        radioGroupProgram.getCheckedRadioButtonId() == -1) {
                     Toast.makeText(Search.this, "Please fill all fields",
                             Toast.LENGTH_SHORT).show();
-                }
-                else {
+                } else {
                     String type = radioButtonEquipement.getText().toString();
                     String program = radioButtonProgram.getText().toString();
                     String product = spinner.getSelectedItem().toString();
 
                     Intent intent = new Intent(Search.this, ResultSearch.class);
-                    intent.putExtra("radioButtonEquipment",type);
+                    intent.putExtra("radioButtonEquipment", type);
                     intent.putExtra("radioButtonProgram", program);
                     intent.putExtra("spinnerValue", product);
                     startActivity(intent);
@@ -137,27 +135,27 @@ public class Search extends AppCompatActivity {
         spinner.setAdapter(dataAdapter);
     }
 
-    public List<String> getAllLabel(){
-            List<String> labels = new ArrayList<String>();
-            //String test = "select product from Equipment_tableTest where id_type = 'SATCOM'";
-            String test = "select product from Equipment_tableTest where id_type =" +" '"+mType+"'";
-            DatabaseHelper db = new DatabaseHelper(getApplicationContext());
-            //String selectQuery = "SELECT "+PRODUCT+" FROM " + EQUIPMENT_TABLE_NAME+" where "+ ID_TYPE+ "="+ ;
-            SQLiteDatabase sqLiteDatabase = db.getReadableDatabase();
-            Cursor cursor = sqLiteDatabase.rawQuery(test, null);
-            if(cursor.moveToFirst()){
-                do{
-                    labels.add(cursor.getString(0));
+    public List<String> getAllLabel() {
+        List<String> labels = new ArrayList<String>();
+        //String test = "select product from Equipment_tableTest where id_type = 'SATCOM'";
+        String test = "select product from Equipment_tableTest where id_type =" + " '" + mType + "'";
+        DatabaseHelper db = new DatabaseHelper(getApplicationContext());
+        //String selectQuery = "SELECT "+PRODUCT+" FROM " + EQUIPMENT_TABLE_NAME+" where "+ ID_TYPE+ "="+ ;
+        SQLiteDatabase sqLiteDatabase = db.getReadableDatabase();
+        Cursor cursor = sqLiteDatabase.rawQuery(test, null);
+        if (cursor.moveToFirst()) {
+            do {
+                labels.add(cursor.getString(0));
 
-                }while (cursor.moveToNext());
-            }
-            cursor.close();
-            sqLiteDatabase.close();
+            } while (cursor.moveToNext());
+        }
+        cursor.close();
+        sqLiteDatabase.close();
         return labels;
     }
 
     @Override
-    public void onRestart(){
+    public void onRestart() {
         super.onRestart();
         finish();
         startActivity(getIntent());

@@ -19,6 +19,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 2;
     public static final String DATABASE_NAME = "Test_CSV";
     public static final String EQUIPMENT_TABLE_NAME = "Equipment_tableTest";
+    public static final String DUPLICATE_TABLE = "duplicate_table";
 
     public final ArrayList<Model> searchListEquipment = new ArrayList<Model>();
     //Constants rows
@@ -56,6 +57,29 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                     DATEMAJ + " TEXT, " +
                     COMMEBTS + " TEXT);";
 
+    //-------------Duplicate Table--------------------------
+
+    private static final String DUPLICATE_TABLE_CREATE =
+            "CREATE TABLE " + DUPLICATE_TABLE  + " (" +
+                    ID_EQUIPMENT + " INTEGER PRIMARY KEY, " +
+                    ID_TYPE  + " TEXT, " +
+                    PROGRAM  + " TEXT, " +
+                    PRODUCT  + " TEXT, " +
+                    STATUT  + " TEXT, " +
+                    MODEL  + " TEXT, " +
+                    ID_STANDARD + " TEXT, " +
+                    PN + " TEXT, " +
+                    SN + " TEXT, " +
+                    PNSOFT + " TEXT, " +
+                    CMS + " TEXT, " +
+                    LOCATION + " TEXT, " +
+                    DATECREA + " TEXT, " +
+                    DATEMAJ + " TEXT, " +
+                    COMMEBTS + " TEXT);";
+    //-------------Duplicate Table--------------------------
+
+
+
     public DatabaseHelper(Context context){
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
@@ -71,6 +95,14 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL(EQUIPMENT_TABLE_CREATE);
     }
 
+    //----------------Create duplicate Table------------------
+    public  void createDuplicateTable(){
+        SQLiteDatabase db = this.getWritableDatabase();
+       // db.execSQL(DUPLICATE_TABLE_CREATE);
+    }
+    //_!!!_____ FAIRE LE DELETE DUPLICATE TABLE_______________!!!
+    //----------------Create duplicate Table------------------
+
 
     public void addBdd(){
         createEquipmentTable();
@@ -80,7 +112,11 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int i, int i1) {
     }
 
+
+    //todo : creer une methode avec table_name en argument pour nouvelle table bluetooth
     //Ajout de la bdd en raw/csv
+
+
     public void addObjetEquipment(Context context){
         InputStream is = context.getResources().openRawResource(R.raw.data);
         BufferedReader reader = new BufferedReader(
@@ -140,16 +176,28 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         createEquipmentTable();
     }
 
-    public ArrayList<Model> getAllEquipment (){
+    public ArrayList<Model> getAllEquipment(){
         String query = "SELECT * FROM "+EQUIPMENT_TABLE_NAME;
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor cursor = db.rawQuery(query, null);
         if(cursor.moveToFirst()){
             do{
                 Model modelSearch = new Model();
+                modelSearch.setId(cursor.getInt(0));
                 modelSearch.setEquiment_type(cursor.getString(1));
                 modelSearch.setProgram(cursor.getString(2));
-                modelSearch.setModel(cursor.getString(3));
+                modelSearch.setProduct(cursor.getString(3));
+                modelSearch.setStatut(cursor.getString(4));
+                modelSearch.setModel(cursor.getString(5));
+                modelSearch.setStandard(cursor.getString(6));
+                modelSearch.setPn(cursor.getString(7));
+                modelSearch.setSn(cursor.getString(8));
+                modelSearch.setPnsoft(cursor.getString(9));
+                modelSearch.setCms(cursor.getString(10));
+                modelSearch.setLocation(cursor.getString(11));
+                modelSearch.setDatecrea(cursor.getString(12));
+                modelSearch.setDateMaj(cursor.getString(13));
+                modelSearch.setComments(cursor.getString(14));
                 searchListEquipment.add(modelSearch);
 
             }while (cursor.moveToNext());

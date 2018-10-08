@@ -11,14 +11,14 @@ import java.util.ArrayList;
 
 public class Adapter extends ArrayAdapter<Model> {
 
-public Adapter (Context context, ArrayList<Model> equipment) {
+    public Adapter(Context context, ArrayList<Model> equipment) {
         super(context, 0, equipment);
-        }
+    }
 
-        @Override
-        public View getView(int position, View convertView, ViewGroup parent){
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
         Model equipment = (Model) getItem(position);
-        if(convertView == null){
+        if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.item_list, parent, false);
         }
         TextView program = convertView.findViewById(R.id.tv_program);
@@ -47,5 +47,5 @@ public Adapter (Context context, ArrayList<Model> equipment) {
         location.setText(equipment.getLocation());
 
         return convertView;
-}
+    }
 }

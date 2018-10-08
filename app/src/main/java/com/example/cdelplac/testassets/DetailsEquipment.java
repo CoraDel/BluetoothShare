@@ -94,7 +94,7 @@ public class DetailsEquipment extends AppCompatActivity {
         SQLiteDatabase sqLiteDatabase = db.getReadableDatabase();
         String query = "select * from Equipment_tableTest where id_equipment = '";
 
-        Cursor cursor = sqLiteDatabase.rawQuery(query+modelId+"'", null);
+        Cursor cursor = sqLiteDatabase.rawQuery(query+ modelId+"'", null);
         if (cursor.moveToFirst()){
             Model model = new Model();
             mType = model.setEquiment_type(cursor.getString(1));

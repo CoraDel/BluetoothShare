@@ -11,14 +11,14 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class AutocompleteClass  {
+public class AutocompleteClass {
     Context c;
 
     public AutocompleteClass(Context c) {
         this.c = c;
     }
 
-    public ArrayAdapter<String> getAdpaterBd(List<String> list){
+    public ArrayAdapter<String> getAdpaterBd(List<String> list) {
         Set<String> setList = new HashSet<>();
         setList.addAll(list);
         list.clear();
@@ -27,16 +27,16 @@ public class AutocompleteClass  {
         return arrayAdapter;
     }
 
-    public List<String> getAlldbList(String request){
+    public List<String> getAlldbList(String request) {
         List<String> list = new ArrayList<String>();
         DatabaseHelper db = new DatabaseHelper(c);
         SQLiteDatabase sqLiteDatabase = db.getReadableDatabase();
         Cursor cursor = sqLiteDatabase.rawQuery(request, null);
-        if(cursor.moveToFirst()){
-            do{
+        if (cursor.moveToFirst()) {
+            do {
                 list.add(cursor.getString(0));
 
-            }while (cursor.moveToNext());
+            } while (cursor.moveToNext());
         }
         cursor.close();
         sqLiteDatabase.close();

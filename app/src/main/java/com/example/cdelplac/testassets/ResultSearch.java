@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
+
 import java.util.ArrayList;
 
 
@@ -36,9 +37,9 @@ public class ResultSearch extends AppCompatActivity {
         TextView tvTag3 = findViewById(R.id.tag3);
 
         Intent b = getIntent();
-        String equipmentType = (String)b.getStringExtra("radioButtonEquipment");
-        String program = (String)b.getStringExtra("radioButtonProgram");
-        String spinnerProduct = (String)b.getStringExtra("spinnerValue");
+        String equipmentType = (String) b.getStringExtra("radioButtonEquipment");
+        String program = (String) b.getStringExtra("radioButtonProgram");
+        String spinnerProduct = (String) b.getStringExtra("spinnerValue");
 
         tvTag1.setText(equipmentType);
         tvTag2.setText(program);
@@ -52,16 +53,16 @@ public class ResultSearch extends AppCompatActivity {
 
         SQLiteDatabase sqLiteDatabase = db.getReadableDatabase();
 
-        if(equipmentType.equals("VHF") && program.equals("SA/LR") ||
-                equipmentType.equals("HF")&& program.equals("SA/LR") ){
+        if (equipmentType.equals("VHF") && program.equals("SA/LR") ||
+                equipmentType.equals("HF") && program.equals("SA/LR")) {
             equipmentType = "VHF-HF";
-            program ="SA-LR";
+            program = "SA-LR";
         }
 
-        Cursor cursor2 = sqLiteDatabase.rawQuery("select * from " +EQUIPMENT_TABLE_NAME +" where "
-                + ID_TYPE + " = '"  + equipmentType+"'"+" and " + PROGRAM + " = '"  + program+"'"+" and " + PRODUCT + " = '" + spinnerProduct+"'",null);
+        Cursor cursor2 = sqLiteDatabase.rawQuery("select * from " + EQUIPMENT_TABLE_NAME + " where "
+                + ID_TYPE + " = '" + equipmentType + "'" + " and " + PROGRAM + " = '" + program + "'" + " and " + PRODUCT + " = '" + spinnerProduct + "'", null);
 
-        if(!cursor2.moveToFirst()){
+        if (!cursor2.moveToFirst()) {
             TextView noFound = findViewById(R.id.tv_no_found);
             noFound.setVisibility(View.VISIBLE);
             AlertDialog.Builder builder = new AlertDialog.Builder(this)
@@ -74,10 +75,12 @@ public class ResultSearch extends AppCompatActivity {
                     Intent intentAdd = new Intent(ResultSearch.this, AddEquipement.class);
 
                     switch (which) {
-                        case 0: startActivity(intentList);
-                        break;
-                        case 1: startActivity(intentAdd);
-                        break;
+                        case 0:
+                            startActivity(intentList);
+                            break;
+                        case 1:
+                            startActivity(intentAdd);
+                            break;
                     }
                 }
             });
@@ -87,8 +90,7 @@ public class ResultSearch extends AppCompatActivity {
             AlertDialog dialog = builder.create();
             dialog.show();
 
-        }
-        else if(cursor2.moveToFirst()){
+        } else if (cursor2.moveToFirst()) {
             do {
                 search = new Model();
                 //mModel.setId(cursor2.getColumnIndex(ID_EQUIPMENT));
@@ -100,13 +102,13 @@ public class ResultSearch extends AppCompatActivity {
                 search.setPnsoft(cursor2.getString(9));
 
                 equipment.add(search);
-            }  while (cursor2.moveToNext());
+            } while (cursor2.moveToNext());
         }
 
         equipmentlist.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                if(position>0){
+                if (position > 0) {
                     Model model = equipment.get(position);
                     Intent intent1Details = new Intent(ResultSearch.this, DetailsEquipment.class);
                     intent1Details.putExtra(EXTRA_ID, String.valueOf(model.getId()));

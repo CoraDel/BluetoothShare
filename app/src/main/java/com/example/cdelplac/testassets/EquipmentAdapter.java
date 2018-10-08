@@ -11,17 +11,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EquipmentAdapter extends ArrayAdapter<Model> {
-    public EquipmentAdapter(Context context, ArrayAdapter<Model> equipment, View convertView){
+    public EquipmentAdapter(Context context, ArrayAdapter<Model> equipment, View convertView) {
         super(context, 0, (List<Model>) equipment);
     }
-    public EquipmentAdapter (Context context, ArrayList<Model> equipment) {
+
+    public EquipmentAdapter(Context context, ArrayList<Model> equipment) {
         super(context, 0, equipment);
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent){
+    public View getView(int position, View convertView, ViewGroup parent) {
 
-        if(convertView == null){
+        if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.item_equipment, parent, false);
         }
         TextView model = convertView.findViewById(R.id.tv_model);

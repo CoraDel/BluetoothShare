@@ -1,5 +1,7 @@
 package com.example.cdelplac.testassets;
 
+import javax.xml.transform.sax.TemplatesHandler;
+
 public class Model {
     private String equiment_type, program, product, model, standard, pn, sn, pnsoft, statut, cms, location, datecrea, dateMaj, comments;
     private int id;
@@ -37,6 +39,10 @@ public class Model {
     }
 
     public Model() {
+    }
+
+    public Model(int id) {
+        this.id = id;
     }
 
     public Model(int id, String model, String standard, String pn, String sn, String pnsoft) {
@@ -154,6 +160,7 @@ public class Model {
         this.equiment_type = equiment_type;
         return equiment_type;
     }
+
     public int getId() {
         return id;
     }
@@ -186,4 +193,5 @@ public class Model {
     public void setComments(String comments) {
         this.comments = comments;
     }
+
 }

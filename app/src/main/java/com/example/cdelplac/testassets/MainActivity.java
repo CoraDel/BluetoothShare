@@ -22,7 +22,7 @@ import java.io.FileOutputStream;
 import java.nio.channels.FileChannel;
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity{
+public class MainActivity extends AppCompatActivity {
     private static final String EQUIPMENT_TABLE_NAME = "Equipment_tableTest";
     private ArrayList<Model> equipment;
     private ListView listTest;
@@ -35,30 +35,25 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //DatabaseHelper db = DatabaseHelper.getInstance(getApplicationContext());
-
         DatabaseHelper db = new DatabaseHelper(this);
 
+        //________Method to clean and populate DATABASE
         //db.addBdd()
         //db.deleteAllAudioTests();
         //db.addObjetEquipment(this);
-       //A faire qu'une fois pour créer la table
+        //A faire qu'une fois pour créer la table
 
 
         //extractDatabase();
 
 
         listTest = findViewById(R.id.listview);
-        // ------------ A voir pour header title ---------------- //
-        //View headerView = getLayoutInflater().inflate(R.layout.listview_header, null);
-        //listTest.addHeaderView(headerView);
-
 
         equipment = new ArrayList<>();
         adapter = new Adapter(this, equipment);
         SQLiteDatabase sqLiteDatabase = db.getReadableDatabase();
-        final Cursor cursor = sqLiteDatabase.rawQuery("select * from "+ EQUIPMENT_TABLE_NAME, null);
-        if(cursor.moveToFirst()){
+        final Cursor cursor = sqLiteDatabase.rawQuery("select * from " + EQUIPMENT_TABLE_NAME, null);
+        if (cursor.moveToFirst()) {
             do {
                 Model equipmentModel = new Model();
                 equipmentModel.setId(cursor.getInt(0));
@@ -78,7 +73,7 @@ public class MainActivity extends AppCompatActivity{
             }
             while (cursor.moveToNext());
         }
-            listTest.setAdapter(adapter);
+        listTest.setAdapter(adapter);
 
         //------------------------SEARCH LIST----------------------------------------------------
 
@@ -96,8 +91,8 @@ public class MainActivity extends AppCompatActivity{
                 DatabaseHelper db = new DatabaseHelper(getApplicationContext());
                 Cursor cursor1 = db.searchDataBase(s);
 
-                if(cursor1.moveToFirst()){
-                    do{
+                if (cursor1.moveToFirst()) {
+                    do {
                         Model model = new Model();
                         model.setId(cursor1.getInt(0));
                         model.setEquiment_type(cursor1.getString(1));
@@ -114,7 +109,7 @@ public class MainActivity extends AppCompatActivity{
 
                         equipment.add(model);
 
-                    }while (cursor1.moveToNext());
+                    } while (cursor1.moveToNext());
                 }
                 listTest.setAdapter(adapter);
                 return true;
@@ -128,12 +123,12 @@ public class MainActivity extends AppCompatActivity{
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                 Model modelSend = equipment.get(position);
                 int vall = modelSend.getId();
-                    Intent intentSend = new Intent(getApplicationContext(), DetailsEquipment.class);
-                    intentSend.putExtra(EXTRA_ID, String.valueOf(vall));
-                    startActivity(intentSend);
+                Intent intentSend = new Intent(getApplicationContext(), DetailsEquipment.class);
+                intentSend.putExtra(EXTRA_ID, String.valueOf(vall));
+                startActivity(intentSend);
             }
         });
-        }
+    }
 
     //----------------------------------------------------------------------------
 
