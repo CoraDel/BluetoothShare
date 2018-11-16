@@ -106,6 +106,7 @@ public class Bluetooth extends Activity {
                     mBluetoothService.write(send);
 
                     try {
+                        //todo : tester avec plus de temps sur la pause du thread
                         Thread.sleep(200);
                     } catch (InterruptedException e) {
                         e.printStackTrace();

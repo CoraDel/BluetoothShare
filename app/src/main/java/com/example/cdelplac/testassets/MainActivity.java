@@ -78,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
         //------------------------SEARCH LIST----------------------------------------------------
 
         SearchView searchView = findViewById(R.id.search_view);
+        searchView.setQueryHint("PROGRAM / TYPE / SN / PN / PRODUCT / MODEL");
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String s) {

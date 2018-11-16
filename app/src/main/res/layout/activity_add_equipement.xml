@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".AddEquipement"
-    android:orientation="vertical">
-
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AddEquipement">
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingTop="30dp"
             android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp">
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
 
 
             <TextView
@@ -42,14 +40,13 @@
                 android:id="@+id/equipementRadioGroupAdd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="left"
+                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/radioButtonVHF"
-                    android:layout_width="wrap_content"
+                    android:layout_width="190dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="VHF"
                     android:textSize="15sp" />
                 <!-- android:onClick="onRadioButtonClicked"-->
@@ -57,25 +54,22 @@
 
                 <RadioButton
                     android:id="@+id/radioButtonHF"
-                    android:layout_width="wrap_content"
+                    android:layout_width="190dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="HF"
                     android:textSize="15sp" />
 
                 <RadioButton
                     android:id="@+id/radioButtonAUDIO"
-                    android:layout_width="wrap_content"
+                    android:layout_width="190dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="AUDIO"
                     android:textSize="15sp" />
 
                 <RadioButton
                     android:id="@+id/radioButtonSATCOM"
-                    android:layout_width="wrap_content"
+                    android:layout_width="190dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="SATCOM"
                     android:textSize="15sp" />
 
@@ -91,38 +85,34 @@
                 android:id="@+id/programmeRadioGroupAdd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
+                android:layout_gravity="left"
                 android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/radioButtonSaLr"
-                    android:layout_width="wrap_content"
+                    android:layout_width="190dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="SA/LR"
                     android:textSize="15sp" />
 
                 <RadioButton
                     android:id="@+id/radioButtonA350"
-                    android:layout_width="wrap_content"
+                    android:layout_width="190dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="A350"
                     android:textSize="15sp" />
 
                 <RadioButton
                     android:id="@+id/radioButtonA380"
-                    android:layout_width="wrap_content"
+                    android:layout_width="190dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="A380"
                     android:textSize="15sp" />
 
                 <RadioButton
                     android:id="@+id/radioButtonA400"
-                    android:layout_width="wrap_content"
+                    android:layout_width="190dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="A400M"
                     android:textSize="15sp" />
             </RadioGroup>
@@ -160,11 +150,11 @@
 
             <AutoCompleteTextView
                 android:id="@+id/actv_model"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:hint="Model"
-            android:textSize="14sp" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="Model"
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -175,11 +165,11 @@
 
             <AutoCompleteTextView
                 android:id="@+id/actv_standard"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:hint="Standard"
-            android:textSize="14sp" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="Standard"
+                android:textSize="14sp" />
 
 
             <TextView
@@ -192,11 +182,11 @@
 
             <AutoCompleteTextView
                 android:id="@+id/actv_pn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:hint="PN"
-            android:textSize="14sp" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="PN"
+                android:textSize="14sp" />
 
 
             <TextView
@@ -208,11 +198,11 @@
 
             <AutoCompleteTextView
                 android:id="@+id/actv_sn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:hint="SN"
-            android:textSize="14sp" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="SN"
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -223,11 +213,11 @@
 
             <AutoCompleteTextView
                 android:id="@+id/actv_Pnsoft"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:hint="PNSoft"
-            android:textSize="14sp" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="PNSoft"
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -238,11 +228,11 @@
 
             <AutoCompleteTextView
                 android:id="@+id/actv_statut"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:hint="Statut"
-            android:textSize="14sp" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="Statut"
+                android:textSize="14sp" />
 
 
             <TextView
@@ -254,11 +244,11 @@
 
             <AutoCompleteTextView
                 android:id="@+id/actv_cms"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:hint="CMS"
-            android:textSize="14sp" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="CMS"
+                android:textSize="14sp" />
 
 
             <TextView
@@ -270,11 +260,11 @@
 
             <AutoCompleteTextView
                 android:id="@+id/actv_location"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:hint="Location"
-            android:textSize="14sp" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="Location"
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -286,11 +276,11 @@
 
             <EditText
                 android:id="@+id/et_comsadd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:hint="Comments"
-            android:textSize="14sp" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="Comments"
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/btn_add"
@@ -299,7 +289,9 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="30dp"
-                android:text="Add equipment" />
+                android:background="@color/colorPrimary"
+                android:text="Add equipment"
+                android:textColor="?attr/colorBackgroundFloating" />
 
 
         </LinearLayout>

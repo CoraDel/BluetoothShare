@@ -28,7 +28,6 @@ public class ExtractDB extends AppCompatActivity {
 
     }
 
-    //todo : essayer de l'utiliser pour extract db
     public void exportDb() {
         DatabaseHelper databaseHelper = new DatabaseHelper(getApplicationContext());
         SQLiteDatabase db = databaseHelper.getReadableDatabase();

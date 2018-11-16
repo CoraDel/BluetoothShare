@@ -8,102 +8,102 @@
         <TextView
             android:id="@+id/tv_equip_type"
             android:layout_width="100dp"
-            android:layout_height="45dp"
+            android:layout_height="49dp"
             android:layout_weight="1"
             android:gravity="center"
             android:text="TextView"
-            android:textSize="7sp" />
+            android:textSize="9sp" />
 
         <TextView
             android:id="@+id/tv_program"
             android:layout_width="100dp"
-            android:layout_height="45dp"
+            android:layout_height="49dp"
             android:layout_weight="1"
             android:gravity="center"
             android:text="TextView"
-            android:textSize="7sp" />
+            android:textSize="9sp" />
 
         <TextView
             android:id="@+id/tv_product"
             android:layout_width="100dp"
-            android:layout_height="45dp"
+            android:layout_height="49dp"
             android:layout_weight="1"
             android:gravity="center"
             android:text="TextView"
-            android:textSize="7sp" />
+            android:textSize="9sp" />
 
 
         <TextView
             android:id="@+id/tv_model"
             android:layout_width="100dp"
-            android:layout_height="45dp"
+            android:layout_height="49dp"
             android:layout_weight="1"
             android:gravity="center"
             android:text="TextView"
-            android:textSize="7sp" />
+            android:textSize="9sp" />
 
         <TextView
             android:id="@+id/tv_standard"
             android:layout_width="100dp"
-            android:layout_height="45dp"
+            android:layout_height="49dp"
             android:layout_weight="1"
             android:gravity="center"
             android:text="TextView"
-            android:textSize="7sp" />
+            android:textSize="9sp" />
 
         <TextView
             android:id="@+id/tv_pn"
             android:layout_width="100dp"
-            android:layout_height="45dp"
+            android:layout_height="49dp"
             android:layout_weight="1"
             android:gravity="center"
             android:text="TextView"
-            android:textSize="7sp" />
+            android:textSize="9sp" />
 
         <TextView
             android:id="@+id/tv_sn"
             android:layout_width="100dp"
-            android:layout_height="45dp"
+            android:layout_height="49dp"
             android:layout_weight="1"
             android:gravity="center"
             android:text="TextView"
-            android:textSize="7sp" />
+            android:textSize="9sp" />
 
         <TextView
             android:id="@+id/tv_pnsoft"
             android:layout_width="100dp"
-            android:layout_height="45dp"
+            android:layout_height="49dp"
             android:layout_weight="1"
                 android:gravity="center"
             android:text="TextView"
-            android:textSize="7sp" />
+            android:textSize="9sp" />
 
         <TextView
             android:id="@+id/tv_statut"
             android:layout_width="100dp"
-            android:layout_height="45dp"
+            android:layout_height="49dp"
             android:layout_weight="1"
                 android:gravity="center"
             android:text="TextView"
-            android:textSize="7sp" />
+            android:textSize="9sp" />
 
         <TextView
             android:id="@+id/tv_cms"
             android:layout_width="100dp"
-            android:layout_height="45dp"
+            android:layout_height="49dp"
             android:layout_weight="1"
                 android:gravity="center"
             android:text="TextView"
-            android:textSize="7sp" />
+            android:textSize="9sp" />
 
         <TextView
             android:id="@+id/tv_location"
             android:layout_width="100dp"
-            android:layout_height="45dp"
+            android:layout_height="49dp"
             android:layout_weight="1"
                 android:gravity="center"
             android:text="TextView"
-            android:textSize="7sp" />
+            android:textSize="9sp" />
 
 
     </LinearLayout>

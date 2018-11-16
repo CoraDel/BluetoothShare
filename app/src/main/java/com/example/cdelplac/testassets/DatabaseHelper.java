@@ -58,6 +58,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                     COMMEBTS + " TEXT);";
 
     //-------------Duplicate Table--------------------------
+    // A finir : insérer les données a partir du CSV reçu par bluetooth dans cette table.
 
     private static final String DUPLICATE_TABLE_CREATE =
             "CREATE TABLE " + DUPLICATE_TABLE  + " (" +

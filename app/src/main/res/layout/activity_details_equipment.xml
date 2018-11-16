@@ -10,8 +10,9 @@
         android:layout_height="wrap_content"
         tools:context=".Equipements.DetailsEquipment"
         android:orientation="vertical"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -230,7 +231,8 @@
                 android:id="@+id/btn_cancel"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:text="Return" />
+                android:text="Return"
+                android:background="#ECEFF1"/>
 
             <Button
                 android:layout_width="150dp"
@@ -242,9 +244,10 @@
                 android:id="@+id/btn_save"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:text="EDIT VALUES"
+                android:background="@color/colorPrimary"
 
-                />
+                android:text="EDIT VALUES"
+                android:textColor="@android:color/background_light" />
         </LinearLayout>
 
 

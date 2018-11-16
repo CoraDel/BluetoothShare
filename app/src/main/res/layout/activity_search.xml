@@ -19,12 +19,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingTop="30dp">
+            android:paddingTop="20dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Equipment type" />
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:text="Search for an equipment"
+                android:textAllCaps="true"
+                android:textColor="#0277BD"
+                android:textSize="24sp"
+                app:fontFamily="sans-serif" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="EQUIPMENT TYPE :" />
 
             <RadioGroup
                 android:id="@+id/equipementRadioGroup"
@@ -35,37 +46,36 @@
 
                 <RadioButton
                     android:id="@+id/radioButtonVHF"
-                    android:layout_width="wrap_content"
+                    android:layout_width="180dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+
                     android:text="VHF"
-                    android:textSize="30sp"/>
+                    android:textSize="25sp"/>
                 <!-- android:onClick="onRadioButtonClicked"-->
 
 
                 <RadioButton
                     android:id="@+id/radioButtonHF"
-                    android:layout_width="wrap_content"
+                    android:layout_width="180dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+
                     android:text="HF"
-                    android:textSize="30sp" />
+                    android:textSize="25sp" />
 
                 <RadioButton
                     android:id="@+id/radioButtonAUDIO"
-                    android:layout_width="wrap_content"
+                    android:layout_width="180dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+
                     android:text="AUDIO"
-                    android:textSize="30sp"/>
+                    android:textSize="25sp"/>
 
                 <RadioButton
                     android:id="@+id/radioButtonSATCOM"
-                    android:layout_width="wrap_content"
+                    android:layout_width="180dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="SATCOM"
-                    android:textSize="30sp" />
+                    android:textSize="25sp" />
 
             </RadioGroup>
 
@@ -74,7 +84,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-                android:text="program" />
+                android:layout_marginLeft="20dp"
+                android:text="PROGRAM :" />
 
             <RadioGroup
                 android:id="@+id/programmeRadioGroup"
@@ -86,35 +97,31 @@
 
                 <RadioButton
                     android:id="@+id/radioButtonSaLr"
-                    android:layout_width="wrap_content"
+                    android:layout_width="180dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="SA/LR"
-                    android:textSize="30sp" />
+                    android:textSize="25sp" />
 
                 <RadioButton
                     android:id="@+id/radioButtonA350"
-                    android:layout_width="wrap_content"
+                    android:layout_width="180dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="A350"
-                    android:textSize="30sp" />
+                    android:textSize="25sp" />
 
                 <RadioButton
                     android:id="@+id/radioButtonA380"
-                    android:layout_width="wrap_content"
+                    android:layout_width="180dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="A380"
-                    android:textSize="30sp" />
+                    android:textSize="25sp" />
 
                 <RadioButton
                     android:id="@+id/radioButtonA400"
-                    android:layout_width="wrap_content"
+                    android:layout_width="180dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="A400M"
-                    android:textSize="30sp" />
+                    android:textSize="25sp" />
             </RadioGroup>
 
             <!-- Product  spinner -->
@@ -128,12 +135,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Product :" />
+                    android:text="PRODUCT :" />
 
                 <Spinner
                     android:id="@+id/ProductSpinner"
-                    android:layout_width="350dp"
-                    android:layout_height="30dp"
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="bottom" />
 
             </LinearLayout>
@@ -143,23 +150,28 @@
 
         <Button
             android:id="@+id/SearchEquipmentButton"
-            android:layout_width="370dp"
-            android:layout_height="wrap_content"
+            android:layout_width="380dp"
+            android:layout_height="65dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="80sp"
-            android:text="search for an equipement"
+            android:layout_marginTop="60sp"
+
+            android:background="@color/colorPrimary"
+            android:text="SEARCHING"
             android:textAllCaps="false"
-            android:textSize="30sp" />
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
         <Button
             android:id="@+id/btn_all_equipment"
             style="@style/Widget.AppCompat.Button"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="250sp"
+            android:layout_marginTop="200sp"
+            android:background="#ECEFF1"
             android:text="all equipement"
-            android:textAllCaps="false"
-            android:textSize="25sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/btn_add_newequipment"
@@ -168,9 +180,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="50sp"
+            android:background="#ECEFF1"
             android:text="add an equipement"
-            android:textAllCaps="false"
-            android:textSize="25sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/btn_extract_data"
@@ -178,11 +190,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="70sp"
-            android:text="Extract Equipment Data"/>
+            android:background="#ECEFF1"
+            android:text="Extract Equipment Data"
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:layout_gravity="center"
             android:layout_marginTop="50sp"
             android:gravity="center"
@@ -192,11 +207,12 @@
         <Button
             android:id="@+id/btn_bluethooh_data"
             android:layout_width="200dp"
-            android:textSize="10dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10sp"
-            android:text= "Update Data by Bluethooth"/>
+            android:background="#B0BEC5"
+            android:text="Update Data by Bluethooth"
+            android:textSize="10dp" />
 
     </LinearLayout>
 
